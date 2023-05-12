@@ -88,4 +88,15 @@ public class Forecast {
     public void setCity(City city) {
         this.city = city;
     }
+
+    @Override
+    public String toString() {
+        return String.format("City: %s%n" +
+                "-min temperature: %.2f%n" +
+                "--max temperature: %.2f%n" +
+                "---sunrise: %s%n" +
+                "----sunset: %s",
+                city.getCityName(), getMinTemperature(),
+                getMaxTemperature(), getSunrise(), getSunset());
+    }
 }

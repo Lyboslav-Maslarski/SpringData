@@ -47,7 +47,7 @@ public class CountryServiceImpl implements CountryService {
 
     @Override
     public String importCountries() throws IOException {
-        ImportCountryDTO[] importCountryDTOS = this.gson.fromJson(new FileReader(COUNTRY_JSON), ImportCountryDTO[].class);
+        ImportCountryDTO[] importCountryDTOS = this.gson.fromJson(readCountriesFromFile(), ImportCountryDTO[].class);
 
         return Arrays.stream(importCountryDTOS)
                 .map(this::importCountry)

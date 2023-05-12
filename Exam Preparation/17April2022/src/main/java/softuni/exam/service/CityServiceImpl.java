@@ -28,7 +28,7 @@ public class CityServiceImpl implements CityService {
     private final ModelMapper modelMapper;
     private final Gson gson;
     private final Validator validator;
-    private final String CITY_JSON = "src/main/resources/files/json/city.json";
+    private final String CITY_JSON = "src/main/resources/files/json/cities.json";
 
     @Autowired
     public CityServiceImpl(CountryRepository countryRepository, CityRepository cityRepository, ModelMapper modelMapper, Gson gson, Validator validator) {
@@ -51,7 +51,7 @@ public class CityServiceImpl implements CityService {
 
     @Override
     public String importCities() throws IOException {
-        ImportCityDTO[] importCityDTOS = this.gson.fromJson(new FileReader(CITY_JSON), ImportCityDTO[].class);
+        ImportCityDTO[] importCityDTOS = this.gson.fromJson(readCitiesFileContent(), ImportCityDTO[].class);
 
         return Arrays.stream(importCityDTOS)
                 .map(this::importCity)

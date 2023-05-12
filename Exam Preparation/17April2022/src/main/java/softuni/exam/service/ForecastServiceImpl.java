@@ -1,13 +1,11 @@
 package softuni.exam.service;
 
-import com.google.gson.Gson;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
-import softuni.exam.models.dto.ImportCityDTO;
 import softuni.exam.models.dto.ImportForecastDTO;
 import softuni.exam.models.dto.ImportForecastsDTO;
 import softuni.exam.models.entity.City;
-import softuni.exam.models.entity.Country;
+import softuni.exam.models.entity.DayOfWeekEnum;
 import softuni.exam.models.entity.Forecast;
 import softuni.exam.repository.CityRepository;
 import softuni.exam.repository.ForecastRepository;
@@ -68,7 +66,8 @@ public class ForecastServiceImpl implements ForecastService {
         if (!violations.isEmpty()) {
             return "Invalid forecast";
         }
-        Optional<Forecast> optionalForecast = forecastRepository.findByCityId(importForecastDTO.getCity());
+
+        Optional<Forecast> optionalForecast = forecastRepository.findByDayOfWeekAndCityId(DayOfWeekEnum.valueOf(importForecastDTO.getDayOfWeek()), importForecastDTO.getCity());
 
         if (optionalForecast.isPresent()) {
             return "Invalid forecast";
@@ -89,6 +88,9 @@ public class ForecastServiceImpl implements ForecastService {
 
     @Override
     public String exportForecasts() {
-        return null;
+        return forecastRepository
+                .findByDayOfWeekAndCityPopulationLessThanOrderByMaxTemperatureDescIdAsc(DayOfWeekEnum.SUNDAY,150000)
+                .stream().map(Forecast::toString)
+                .collect(Collectors.joining(System.lineSeparator()));
     }
 }

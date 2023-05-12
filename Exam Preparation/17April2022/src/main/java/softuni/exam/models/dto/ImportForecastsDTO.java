@@ -16,6 +16,9 @@ public class ImportForecastsDTO {
         this.forecasts = forecasts;
     }
 
+    public ImportForecastsDTO() {
+    }
+
     public List<ImportForecastDTO> getForecasts() {
         return forecasts;
     }
