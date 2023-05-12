@@ -1,6 +1,9 @@
 package softuni.exam.models.dto;
 
+import javax.validation.constraints.NotNull;
+
 public class ImportCityDTO {
+    @NotNull
     private String cityName;
     private String description;
     private int population;
