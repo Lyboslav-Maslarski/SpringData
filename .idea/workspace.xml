@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d6e5ebc1-55de-4200-a8d9-c52f1f0fd183" name="Changes" comment="add">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Custom-ORM/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/build/misc/debian.in/watch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/core-api/java/com/mysql/cj/WarningListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/core-api/java/com/mysql/cj/exceptions/WrongArgumentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/core-api/java/com/mysql/cj/protocol/Warning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/core-api/java/com/mysql/cj/protocol/WatchableStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/core-impl/java/com/mysql/cj/conf/url/XDevApiConnectionUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/core-impl/java/com/mysql/cj/conf/url/XDevApiDnsSrvConnectionUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/core-impl/java/com/mysql/cj/protocol/WatchableOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/core-impl/java/com/mysql/cj/protocol/WatchableWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/core-impl/java/com/mysql/cj/protocol/WriterWatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/core-impl/java/com/mysql/cj/result/ZonedDateTimeValueFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XAuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XMessageBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XMessageHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XProtocolDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XProtocolError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XProtocolRow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XProtocolRowFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XProtocolRowInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XServerCapabilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XServerSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XpluginStatementCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/user-api/java/com/mysql/cj/xdevapi/Warning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/user-api/java/com/mysql/cj/xdevapi/XDevAPIError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/user-impl/java/com/mysql/cj/jdbc/WrapperBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/user-impl/java/com/mysql/cj/xdevapi/WarningImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/test/java/com/mysql/cj/result/ZeroDateTimeToNullValueFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/test/java/testsuite/simple/XATest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/test/java/testsuite/x/internal/XProtocolAsyncTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/test/java/testsuite/x/internal/XProtocolAuthTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/test/java/testsuite/x/internal/XProtocolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam Preparation/13August2021/src/main/java/exam/model/entities/WarrantyType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam Preparation/13August2021/target/classes/exam/model/entities/WarrantyType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateCodeFirst-Exercise/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateCodeFirst-Exercise/src/main/java/_01_GringottsDatabase/WizardDeposit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateCodeFirst-Exercise/src/main/java/_04_HospitalDatabase/Entities/Visitation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateCodeFirst-Lab/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateCodeFirst-Lab/src/main/java/entities/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateCodeFirst-Lab/target/classes/entities/Vehicle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntroductionToHibernate-Lab/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSON Processing-Exercise/CarDealer/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSON Processing-Exercise/ProductShop/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSON Processing-Exercise/ProductShop/src/main/java/example/dtos/UserWithSoldProductsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSON Processing-Exercise/ProductShop/src/main/java/example/dtos/UserWithSoldProductsExtendedDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSON Processing-Exercise/ProductShop/target/classes/example/dtos/UserWithSoldProductsExtendedDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSON Processing-Exercise/ProductShop/target/classes/example/dtos/UsersWithSoldProductsDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDataAutoMappingObjects - Lab/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDataAutoMappingObjects-Exercise/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDataAutoMappingObjects-Exercise/target/classes/example/exceptions/ValidationException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDataAutoMappingObjects-Exercise/target/classes/example/services/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDataIntro-Exercise/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDataIntro-Lab/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XML-Processing-Exercise/src/main/java/ProductShop/exportDTOS/UserWithSoldItemAndCountDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XML-Processing-Exercise/src/main/java/ProductShop/exportDTOS/UsersWithSoldItemAndCountDTO.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="543481fc-a5b4-4fdc-8485-41f25507cfd6" />
+        <option name="url" value="https://github.com/Lyboslav-Maslarski/SpringData.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MVEalofokTnHWQZkvx1mUpKrEE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TODO_SCOPE": "All Places",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/lyb4o/OneDrive/Desktop/SpringData",
+    "settings.editor.selected.configurable": "editing.templates"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6e5ebc1-55de-4200-a8d9-c52f1f0fd183" name="Changes" comment="" />
+      <created>1677844414738</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677844414738</updated>
+    </task>
+    <task id="LOCAL-00071" summary="add">
+      <created>1683494452200</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1683494452200</updated>
+    </task>
+    <task id="LOCAL-00072" summary="add">
+      <created>1683494470635</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1683494470635</updated>
+    </task>
+    <task id="LOCAL-00073" summary="add">
+      <created>1683494491131</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1683494491131</updated>
+    </task>
+    <task id="LOCAL-00074" summary="add">
+      <created>1683498019991</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1683498019991</updated>
+    </task>
+    <task id="LOCAL-00075" summary="add">
+      <created>1683498040285</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1683498040285</updated>
+    </task>
+    <task id="LOCAL-00076" summary="add">
+      <created>1683592742583</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1683592742583</updated>
+    </task>
+    <task id="LOCAL-00077" summary="add">
+      <created>1683592824954</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1683592824954</updated>
+    </task>
+    <task id="LOCAL-00078" summary="add">
+      <created>1683592844585</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1683592844585</updated>
+    </task>
+    <task id="LOCAL-00079" summary="add">
+      <created>1683592860977</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1683592860977</updated>
+    </task>
+    <task id="LOCAL-00080" summary="add">
+      <created>1683592875398</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1683592875398</updated>
+    </task>
+    <task id="LOCAL-00081" summary="add">
+      <created>1683592894076</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1683592894076</updated>
+    </task>
+    <task id="LOCAL-00082" summary="add">
+      <created>1683799226771</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1683799226771</updated>
+    </task>
+    <task id="LOCAL-00083" summary="add">
+      <created>1683799245181</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1683799245181</updated>
+    </task>
+    <task id="LOCAL-00084" summary="add">
+      <created>1683799260608</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1683799260609</updated>
+    </task>
+    <task id="LOCAL-00085" summary="add">
+      <created>1683799277124</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1683799277124</updated>
+    </task>
+    <task id="LOCAL-00086" summary="add">
+      <created>1683799293967</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1683799293967</updated>
+    </task>
+    <task id="LOCAL-00087" summary="add">
+      <created>1683799672525</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1683799672525</updated>
+    </task>
+    <task id="LOCAL-00088" summary="add">
+      <created>1683799689648</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1683799689648</updated>
+    </task>
+    <task id="LOCAL-00089" summary="add">
+      <created>1683799894613</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1683799894613</updated>
+    </task>
+    <task id="LOCAL-00090" summary="add">
+      <created>1683800812983</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1683800812983</updated>
+    </task>
+    <task id="LOCAL-00091" summary="add">
+      <created>1683800872893</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1683800872893</updated>
+    </task>
+    <task id="LOCAL-00092" summary="add">
+      <created>1683800897032</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1683800897032</updated>
+    </task>
+    <task id="LOCAL-00093" summary="add">
+      <created>1683891840417</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1683891840417</updated>
+    </task>
+    <task id="LOCAL-00094" summary="add">
+      <created>1683891854885</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1683891854885</updated>
+    </task>
+    <task id="LOCAL-00095" summary="add">
+      <created>1683891867976</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1683891867976</updated>
+    </task>
+    <task id="LOCAL-00096" summary="add">
+      <created>1683891883803</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1683891883803</updated>
+    </task>
+    <task id="LOCAL-00097" summary="add">
+      <created>1683891898549</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1683891898549</updated>
+    </task>
+    <task id="LOCAL-00098" summary="add">
+      <created>1683891913123</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1683891913123</updated>
+    </task>
+    <task id="LOCAL-00099" summary="add">
+      <created>1683891936146</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1683891936146</updated>
+    </task>
+    <task id="LOCAL-00100" summary="add">
+      <created>1683909858323</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1683909858323</updated>
+    </task>
+    <task id="LOCAL-00101" summary="add">
+      <created>1684099396636</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1684099396636</updated>
+    </task>
+    <task id="LOCAL-00102" summary="add">
+      <created>1684099412363</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1684099412363</updated>
+    </task>
+    <task id="LOCAL-00103" summary="add">
+      <created>1684099462100</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1684099462100</updated>
+    </task>
+    <task id="LOCAL-00104" summary="add">
+      <created>1684099482478</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1684099482478</updated>
+    </task>
+    <task id="LOCAL-00105" summary="add">
+      <created>1684099497845</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1684099497845</updated>
+    </task>
+    <task id="LOCAL-00106" summary="add">
+      <created>1684099505982</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1684099505982</updated>
+    </task>
+    <task id="LOCAL-00107" summary="add">
+      <created>1684099514065</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1684099514065</updated>
+    </task>
+    <task id="LOCAL-00108" summary="add">
+      <created>1684099523642</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1684099523642</updated>
+    </task>
+    <task id="LOCAL-00109" summary="add">
+      <created>1684099532584</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1684099532584</updated>
+    </task>
+    <task id="LOCAL-00110" summary="add">
+      <created>1684099541473</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1684099541473</updated>
+    </task>
+    <task id="LOCAL-00111" summary="add">
+      <created>1684099556446</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1684099556446</updated>
+    </task>
+    <task id="LOCAL-00112" summary="add">
+      <created>1684099579336</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1684099579336</updated>
+    </task>
+    <task id="LOCAL-00113" summary="add">
+      <created>1684099589182</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1684099589182</updated>
+    </task>
+    <task id="LOCAL-00114" summary="add">
+      <created>1684099596260</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1684099596260</updated>
+    </task>
+    <task id="LOCAL-00115" summary="add">
+      <created>1684497694334</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1684497694334</updated>
+    </task>
+    <task id="LOCAL-00116" summary="add">
+      <created>1684497713841</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1684497713841</updated>
+    </task>
+    <task id="LOCAL-00117" summary="add">
+      <created>1684497735372</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1684497735372</updated>
+    </task>
+    <task id="LOCAL-00118" summary="add">
+      <created>1685249546048</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1685249546048</updated>
+    </task>
+    <task id="LOCAL-00119" summary="add">
+      <created>1685249559162</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1685249559162</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/Custom-ORM" />
+      <path value="$PROJECT_DIR$/HibernateCodeFirst-Exercise" />
+      <path value="$PROJECT_DIR$/HibernateCodeFirst-Lab" />
+      <path value="$PROJECT_DIR$/IntroductionToHibernate-Lab" />
+      <path value="$PROJECT_DIR$/JSON Processing-Exercise/CarDealer" />
+      <path value="$PROJECT_DIR$/JSON Processing-Exercise/ProductShop" />
+      <path value="$PROJECT_DIR$/SpringDataAutoMappingObjects - Lab" />
+      <path value="$PROJECT_DIR$/SpringDataAutoMappingObjects-Exercise" />
+      <path value="$PROJECT_DIR$/SpringDataIntro-Exercise" />
+      <path value="$PROJECT_DIR$/SpringDataIntro-Lab" />
+      <path value="$PROJECT_DIR$/XML-Processing-Exercise" />
+    </ignored-roots>
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
