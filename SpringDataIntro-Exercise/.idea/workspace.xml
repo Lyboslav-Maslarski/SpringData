@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="707e2a32-d36b-4a22-862b-7d7057573342" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BookShopSystem/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BookShopSystem/ConsoleRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BookShopSystem/entities/AgeRestriction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BookShopSystem/entities/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BookShopSystem/entities/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BookShopSystem/entities/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BookShopSystem/entities/EditionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BookShopSystem/repositories/AuthorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BookShopSystem/repositories/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BookShopSystem/repositories/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BookShopSystem/services/AuthorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BookShopSystem/services/AuthorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BookShopSystem/services/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BookShopSystem/services/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BookShopSystem/services/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BookShopSystem/services/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BookShopSystem/services/SeedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BookShopSystem/services/SeedServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UserSystem/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UserSystem/ConsoleRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UserSystem/entities/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UserSystem/entities/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UserSystem/entities/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UserSystem/entities/Password.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UserSystem/entities/PasswordConstraintsValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UserSystem/entities/Picture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UserSystem/entities/Town.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UserSystem/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UserSystem/repositories/AlbumRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UserSystem/repositories/CountryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UserSystem/repositories/PictureRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UserSystem/repositories/TownRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UserSystem/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UserSystem/services/SeedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UserSystem/services/SeedServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UserSystem/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UserSystem/services/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/files/authors.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/files/books.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/files/categories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/files/towns.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/files/users.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LsTCURbuoe9eRNSnxER82QL7Nv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="UserSystem.entities" />
+      <recent name="UserSystem.services" />
+      <recent name="BookShop.services" />
+      <recent name="BookShop.entities" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UserSystem.Application" />
+      <module name="SpringDataIntro-Exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UserSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookShopSystem.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BookShopSystem.Application" />
+      <module name="SpringDataIntro-Exercise" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.BookShopSystem.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="707e2a32-d36b-4a22-862b-7d7057573342" name="Changes" comment="" />
+      <created>1676658664162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676658664162</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
