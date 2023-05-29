@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6e5ebc1-55de-4200-a8d9-c52f1f0fd183" name="Changes" comment="add">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Custom-ORM/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/build/misc/debian.in/watch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/core-api/java/com/mysql/cj/WarningListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/core-api/java/com/mysql/cj/exceptions/WrongArgumentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/core-api/java/com/mysql/cj/protocol/Warning.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/core-api/java/com/mysql/cj/protocol/WatchableStream.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/core-impl/java/com/mysql/cj/conf/url/XDevApiConnectionUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/core-impl/java/com/mysql/cj/conf/url/XDevApiDnsSrvConnectionUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/core-impl/java/com/mysql/cj/protocol/WatchableOutputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/core-impl/java/com/mysql/cj/protocol/WatchableWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/core-impl/java/com/mysql/cj/protocol/WriterWatcher.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/core-impl/java/com/mysql/cj/result/ZonedDateTimeValueFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XAuthenticationProvider.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XMessageBuilder.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XMessageHeader.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XProtocol.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XProtocolDecoder.java" afterDir="false" />
@@ -31,38 +19,14 @@
       <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XServerCapabilities.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XServerSession.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XpluginStatementCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/user-api/java/com/mysql/cj/xdevapi/Warning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/user-api/java/com/mysql/cj/xdevapi/XDevAPIError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/user-impl/java/com/mysql/cj/jdbc/WrapperBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/main/user-impl/java/com/mysql/cj/xdevapi/WarningImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/test/java/com/mysql/cj/result/ZeroDateTimeToNullValueFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/test/java/testsuite/simple/XATest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/test/java/testsuite/x/internal/XProtocolAsyncTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/test/java/testsuite/x/internal/XProtocolAuthTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DB Apps Introduction/mysql-connector-java-8.0.27/src/test/java/testsuite/x/internal/XProtocolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam Preparation/13August2021/src/main/java/exam/model/entities/WarrantyType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam Preparation/13August2021/target/classes/exam/model/entities/WarrantyType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HibernateCodeFirst-Exercise/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HibernateCodeFirst-Exercise/src/main/java/_01_GringottsDatabase/WizardDeposit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HibernateCodeFirst-Exercise/src/main/java/_04_HospitalDatabase/Entities/Visitation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HibernateCodeFirst-Lab/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HibernateCodeFirst-Lab/src/main/java/entities/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HibernateCodeFirst-Lab/target/classes/entities/Vehicle.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/IntroductionToHibernate-Lab/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSON Processing-Exercise/CarDealer/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSON Processing-Exercise/ProductShop/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSON Processing-Exercise/ProductShop/src/main/java/example/dtos/UserWithSoldProductsDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSON Processing-Exercise/ProductShop/src/main/java/example/dtos/UserWithSoldProductsExtendedDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSON Processing-Exercise/ProductShop/target/classes/example/dtos/UserWithSoldProductsExtendedDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSON Processing-Exercise/ProductShop/target/classes/example/dtos/UsersWithSoldProductsDTO.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SpringDataAutoMappingObjects - Lab/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringDataAutoMappingObjects-Exercise/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringDataAutoMappingObjects-Exercise/target/classes/example/exceptions/ValidationException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringDataAutoMappingObjects-Exercise/target/classes/example/services/UserServiceImpl.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SpringDataIntro-Exercise/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringDataIntro-Lab/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XML-Processing-Exercise/src/main/java/ProductShop/exportDTOS/UserWithSoldItemAndCountDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XML-Processing-Exercise/src/main/java/ProductShop/exportDTOS/UsersWithSoldItemAndCountDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,19 +60,19 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TODO_SCOPE": "All Places",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/lyb4o/OneDrive/Desktop/SpringData",
-    "settings.editor.selected.configurable": "editing.templates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lyb4o/OneDrive/Desktop/SpringData&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -117,34 +81,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677844414738</updated>
-    </task>
-    <task id="LOCAL-00071" summary="add">
-      <created>1683494452200</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1683494452200</updated>
-    </task>
-    <task id="LOCAL-00072" summary="add">
-      <created>1683494470635</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1683494470635</updated>
-    </task>
-    <task id="LOCAL-00073" summary="add">
-      <created>1683494491131</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1683494491131</updated>
-    </task>
-    <task id="LOCAL-00074" summary="add">
-      <created>1683498019991</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1683498019991</updated>
     </task>
     <task id="LOCAL-00075" summary="add">
       <created>1683498040285</created>
@@ -461,7 +397,35 @@
       <option name="project" value="LOCAL" />
       <updated>1685249559162</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="add">
+      <created>1685250406993</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1685250406993</updated>
+    </task>
+    <task id="LOCAL-00121" summary="add">
+      <created>1685250417849</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1685250417849</updated>
+    </task>
+    <task id="LOCAL-00122" summary="add">
+      <created>1685250431175</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1685250431175</updated>
+    </task>
+    <task id="LOCAL-00123" summary="add">
+      <created>1685250464062</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1685250464062</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
