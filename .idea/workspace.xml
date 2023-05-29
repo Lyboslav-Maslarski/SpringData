@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d6e5ebc1-55de-4200-a8d9-c52f1f0fd183" name="Changes" comment="add">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +60,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677844414738</updated>
-    </task>
-    <task id="LOCAL-00084" summary="add">
-      <created>1683799260608</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1683799260609</updated>
     </task>
     <task id="LOCAL-00085" summary="add">
       <created>1683799277124</created>
@@ -405,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685371348356</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="add">
+      <created>1685371420431</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1685371420431</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
