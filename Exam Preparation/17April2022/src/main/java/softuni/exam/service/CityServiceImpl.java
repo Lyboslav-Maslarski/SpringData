@@ -12,7 +12,6 @@ import softuni.exam.repository.CountryRepository;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.Validator;
-import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
