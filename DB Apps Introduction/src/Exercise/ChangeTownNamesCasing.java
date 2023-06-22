@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class ChangeTownNamesCasing {
     public static void main(String[] args) throws SQLException {
         String user = "root";
-        String password = "lybo9109";
+        String password = "";
 
         Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/minions_db", user, password);
 

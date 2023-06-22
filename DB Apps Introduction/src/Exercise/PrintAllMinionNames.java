@@ -6,7 +6,7 @@ import java.util.List;
 
 public class PrintAllMinionNames {
     public static void main(String[] args) throws SQLException {
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/minions_db", "root", "lybo9109");
+        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/minions_db", "root", "");
 
         PreparedStatement preparedStatement = connection.prepareStatement("""
                 SELECT\s

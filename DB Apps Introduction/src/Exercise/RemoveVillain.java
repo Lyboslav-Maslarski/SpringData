@@ -9,7 +9,7 @@ public class RemoveVillain {
 
         int villainID = scan.nextInt();
 
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/minions_db", "root", "lybo9109");
+        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/minions_db", "root", "");
 
         PreparedStatement selectVillainStatement = connection.prepareStatement("""
                 SELECT\s
