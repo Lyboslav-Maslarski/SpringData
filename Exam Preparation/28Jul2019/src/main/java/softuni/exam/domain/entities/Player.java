@@ -1,6 +1,6 @@
 package softuni.exam.domain.entities;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 import java.math.BigDecimal;
 
@@ -10,9 +10,9 @@ public class Player {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    @Column(name = "first_name",nullable = false)
+    @Column(name = "first_name", nullable = false)
     private String firstName;
-    @Column(name = "last_name",nullable = false)
+    @Column(name = "last_name", nullable = false)
     private String lastName;
     @Column(nullable = false)
     private Integer number;
@@ -99,5 +99,21 @@ public class Player {
     public Player setTeam(Team team) {
         this.team = team;
         return this;
+    }
+
+    public String getFullName() {
+        return this.getFirstName() + " " + this.getLastName();
+    }
+
+    public String playerBySalary() {
+        return String.format("Player name: %s\n" +
+                "Number: %d\n" +
+                "Salary: %s\n" +
+                "Team: %s\n", getFullName(), getNumber(), getSalary(), getTeam().getName());
+    }
+
+    public String playerByTeam() {
+        return String.format("         Player name: %s - %s%n         Number: %s"
+                , getFullName(), getPosition().name(), getNumber());
     }
 }

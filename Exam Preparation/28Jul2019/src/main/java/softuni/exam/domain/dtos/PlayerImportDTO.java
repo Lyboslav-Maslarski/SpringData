@@ -1,6 +1,6 @@
 package softuni.exam.domain.dtos;
 
-import softuni.exam.domain.entities.Position;
+import com.google.gson.annotations.Expose;
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
@@ -10,22 +10,29 @@ import java.math.BigDecimal;
 
 public class PlayerImportDTO {
     @NotNull
+    @Expose
     private String firstName;
     @Size(min = 3, max = 15)
     @NotNull
+    @Expose
     private String lastName;
     @Min(1)
     @Max(99)
     @NotNull
+    @Expose
     private Integer number;
     @Min(0)
     @NotNull
+    @Expose
     private BigDecimal salary;
     @NotNull
+    @Expose
     private String position;
     @NotNull
+    @Expose
     private PictureImportDTO picture;
     @NotNull
+    @Expose
     private TeamImportDTO team;
 
     public PlayerImportDTO() {

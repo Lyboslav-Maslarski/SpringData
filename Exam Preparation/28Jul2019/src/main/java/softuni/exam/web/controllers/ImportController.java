@@ -54,7 +54,7 @@ public class ImportController extends BaseController {
     }
 
     @PostMapping("/pictures")
-    public ModelAndView importPicturesConfirm() throws JAXBException {
+    public ModelAndView importPicturesConfirm() throws JAXBException, IOException {
         System.out.println(this.pictureService.importPictures());
 
         return super.redirect("/import/xml");

@@ -2,16 +2,17 @@ package softuni.exam.config;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import javax.validation.Validation;
+import javax.validation.Validator;
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
 import softuni.exam.util.FileUtil;
 import softuni.exam.util.FileUtilImpl;
 import softuni.exam.util.ValidatorUtil;
 import softuni.exam.util.ValidatorUtilImpl;
 
-import javax.validation.Validation;
-import javax.validation.Validator;
 
 @Configuration
 public class ApplicationBeanConfiguration {
@@ -32,6 +33,7 @@ public class ApplicationBeanConfiguration {
     }
 
     @Bean
+    @Primary
     public ValidatorUtil validationUtil() {
         return new ValidatorUtilImpl(validator());
     }

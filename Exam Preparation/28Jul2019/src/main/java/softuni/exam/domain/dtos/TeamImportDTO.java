@@ -1,5 +1,7 @@
 package softuni.exam.domain.dtos;
 
+import com.google.gson.annotations.Expose;
+
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import javax.xml.bind.annotation.XmlAccessType;
@@ -13,9 +15,11 @@ public class TeamImportDTO {
     @XmlElement
     @Size(min = 3, max = 20)
     @NotNull
+    @Expose
     private String name;
     @XmlElement
     @NotNull
+    @Expose
     private PictureImportDTO picture;
 
     public TeamImportDTO() {
