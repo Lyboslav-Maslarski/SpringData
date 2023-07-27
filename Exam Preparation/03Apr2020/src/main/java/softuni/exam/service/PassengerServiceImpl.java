@@ -5,6 +5,8 @@ import org.springframework.stereotype.Service;
 import softuni.exam.repository.PassengerRepository;
 
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 
 @Service
 public class PassengerServiceImpl implements PassengerService {
@@ -22,7 +24,7 @@ public class PassengerServiceImpl implements PassengerService {
 
     @Override
     public String readPassengersFileContent() throws IOException {
-        return null;
+        return Files.readString(Path.of("src/main/resources/files/json/passengers.json"));
     }
 
     @Override
