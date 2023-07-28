@@ -9,7 +9,7 @@ import javax.xml.bind.annotation.XmlElement;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class PlaneImportDTO {
     @Size(min = 5)
-    @XmlElement
+    @XmlElement(name = "register-number")
     private String registerNumber;
     @Positive
     @XmlElement
@@ -19,5 +19,32 @@ public class PlaneImportDTO {
     private String airline;
 
     public PlaneImportDTO() {
+    }
+
+    public String getRegisterNumber() {
+        return registerNumber;
+    }
+
+    public PlaneImportDTO setRegisterNumber(String registerNumber) {
+        this.registerNumber = registerNumber;
+        return this;
+    }
+
+    public Integer getCapacity() {
+        return capacity;
+    }
+
+    public PlaneImportDTO setCapacity(Integer capacity) {
+        this.capacity = capacity;
+        return this;
+    }
+
+    public String getAirline() {
+        return airline;
+    }
+
+    public PlaneImportDTO setAirline(String airline) {
+        this.airline = airline;
+        return this;
     }
 }

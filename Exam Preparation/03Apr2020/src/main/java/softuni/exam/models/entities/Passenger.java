@@ -1,6 +1,8 @@
 package softuni.exam.models.entities;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "passengers")
@@ -19,8 +21,11 @@ public class Passenger {
     private String email;
     @ManyToOne
     private Town town;
+    @OneToMany(targetEntity = Ticket.class, mappedBy = "passenger")
+    private List<Ticket> tickets;
 
     public Passenger() {
+        tickets = new ArrayList<>();
     }
 
     public long getId() {
@@ -84,5 +89,23 @@ public class Passenger {
     public Passenger setTown(Town town) {
         this.town = town;
         return this;
+    }
+
+    public List<Ticket> getTickets() {
+        return tickets;
+    }
+
+    public Passenger setTickets(List<Ticket> tickets) {
+        this.tickets = tickets;
+        return this;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("Passenger %s  %s\n" +
+                        "\tEmail - %s\n" +
+                        "\tPhone - %s\n" +
+                        "\tNumber of tickets - %d",
+                getFirstName(), getLastName(), getEmail(), getPhoneNumber(), getTickets().size());
     }
 }

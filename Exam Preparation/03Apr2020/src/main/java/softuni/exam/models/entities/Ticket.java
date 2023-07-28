@@ -15,7 +15,7 @@ public class Ticket {
     private BigDecimal price;
     @Column(name = "take_off")
     private LocalDateTime takeoff;
-    @OneToOne
+    @ManyToOne
     private Passenger passenger;
     @OneToOne
     private Plane plane;

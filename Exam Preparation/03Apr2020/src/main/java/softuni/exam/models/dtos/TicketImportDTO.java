@@ -5,7 +5,6 @@ import javax.validation.constraints.Size;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlElementWrapper;
 import java.math.BigDecimal;
 
 @XmlAccessorType(XmlAccessType.FIELD)
@@ -18,18 +17,14 @@ public class TicketImportDTO {
     private BigDecimal price;
     @XmlElement(name = "take-off")
     private String takeoff;
-    @XmlElement(name = "name")
-    @XmlElementWrapper(name = "from-town")
-    private String fromTownName;
-    @XmlElement(name = "name")
-    @XmlElementWrapper(name = "to-town")
-    private String toTownName;
-    @XmlElement(name = "email")
-    @XmlElementWrapper(name = "passenger")
-    private String passengerEmail;
-    @XmlElement(name = "register-number")
-    @XmlElementWrapper(name = "plane")
-    private String planeRegisterNumber;
+    @XmlElement(name = "from-town")
+    private TownNameImportDTO fromTown;
+    @XmlElement(name = "to-town")
+    private TownNameImportDTO toTown;
+    @XmlElement
+    private PassengerEmailImportDTO passenger;
+    @XmlElement
+    private PlaneRegisterNumberImportDTO plane;
 
     public TicketImportDTO() {
     }
@@ -61,39 +56,39 @@ public class TicketImportDTO {
         return this;
     }
 
-    public String getFromTownName() {
-        return fromTownName;
+    public TownNameImportDTO getFromTown() {
+        return fromTown;
     }
 
-    public TicketImportDTO setFromTownName(String fromTownName) {
-        this.fromTownName = fromTownName;
+    public TicketImportDTO setFromTown(TownNameImportDTO fromTown) {
+        this.fromTown = fromTown;
         return this;
     }
 
-    public String getToTownName() {
-        return toTownName;
+    public TownNameImportDTO getToTown() {
+        return toTown;
     }
 
-    public TicketImportDTO setToTownName(String toTownName) {
-        this.toTownName = toTownName;
+    public TicketImportDTO setToTown(TownNameImportDTO toTown) {
+        this.toTown = toTown;
         return this;
     }
 
-    public String getPassengerEmail() {
-        return passengerEmail;
+    public PassengerEmailImportDTO getPassenger() {
+        return passenger;
     }
 
-    public TicketImportDTO setPassengerEmail(String passengerEmail) {
-        this.passengerEmail = passengerEmail;
+    public TicketImportDTO setPassenger(PassengerEmailImportDTO passenger) {
+        this.passenger = passenger;
         return this;
     }
 
-    public String getPlaneRegisterNumber() {
-        return planeRegisterNumber;
+    public PlaneRegisterNumberImportDTO getPlane() {
+        return plane;
     }
 
-    public TicketImportDTO setPlaneRegisterNumber(String planeRegisterNumber) {
-        this.planeRegisterNumber = planeRegisterNumber;
+    public TicketImportDTO setPlane(PlaneRegisterNumberImportDTO plane) {
+        this.plane = plane;
         return this;
     }
 }
