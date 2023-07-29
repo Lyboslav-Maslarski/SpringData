@@ -66,4 +66,17 @@ public class Offer {
         this.apartment = apartment;
         return this;
     }
+
+    @Override
+    public String toString() {
+        return String.format("""
+                        Agent %s %s with offer №%d:
+                           -Apartment area: %.2f
+                           --Town: %s
+                           ---Price: %.2f$""",
+                getAgent().getFirstName(), getAgent().getLastName(), getId(),
+                getApartment().getArea(),
+                getApartment().getTown().getTownName(),
+                getPrice());
+    }
 }
