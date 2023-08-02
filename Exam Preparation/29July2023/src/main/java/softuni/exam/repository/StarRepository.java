@@ -26,4 +26,5 @@ public interface StarRepository extends JpaRepository<Star, Long> {
             "            astronomers)\n" +
             "ORDER BY light_years", nativeQuery = true)
     List<Star> findAllByStarTypeOrderByLightYearsAsc(StarType starType);
+    List<Star> findAllByStarTypeAndObserversIsEmptyOrderByLightYears(StarType starType);
 }

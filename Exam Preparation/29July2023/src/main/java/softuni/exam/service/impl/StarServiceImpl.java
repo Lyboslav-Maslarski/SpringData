@@ -81,7 +81,7 @@ public class StarServiceImpl implements StarService {
     @Override
     @Transactional
     public String exportStars() {
-        return starRepository.findAllByStarTypeOrderByLightYearsAsc(StarType.RED_GIANT)
+        return starRepository.findAllByStarTypeAndObserversIsEmptyOrderByLightYears(StarType.RED_GIANT)
                 .stream()
                 .map(Star::toString)
                 .collect(Collectors.joining(System.lineSeparator()));
